@@ -1,0 +1,102 @@
+
+body {
+	background-image: url("36.webp");
+	height: 100%;
+	background-size:cover;
+	background-position: center;
+      background-repeat:no-repeat;
+	display: flex;
+	margin-top: 25px;
+	font-family: cursive;
+	
+}
+.topbar{
+	margin-left:92px;
+	width: 1340px;
+	height: 100px;
+	background: radial-gradiant(rgba(255,255,255,0.6));
+	box-shadow:0 0 10px rgba(0,0,0,0.6);
+	border-radius:30px;  
+}
+
+.navs{
+	display:flex;
+	padding:12px 5%;
+}
+.logo{
+	margin-top: 5px;
+	color:black;
+	font-size:35px;
+	float: left;
+	cursor: pointer;
+}
+.p{
+text-align:center;
+margin-middle:5px;
+font-size:35px;
+}
+.navs ul{
+	flex: 1;
+	text-align:left;
+	font-size: 29px;
+ }
+.navs ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+  text-decoration:underline;
+
+}
+.navs ul li a{
+	text-decoration:none;
+	color: #FF0000;
+	transition: 0.2s ease;
+}
+.navs ul li a:hover{
+	color: #fff;
+}
+.navs ul li ul {
+	position: absolute;
+	width: 150px;
+	background: #fff;
+	display: none;
+}
+.navs ul li ul li{
+	width: 80px;
+	border-top:1px soloid rgba(0,0,0,.1);
+}
+.navs ul li:focus-within >ul,
+.navs ul li:hover>ul{
+	display:initial;
+}
+.pin{
+	opacity:3.0;
+	height:320px;
+	text-align:center;
+	color:black; width:200px;
+	
+}
+h2 {
+      width:200px;
+	height:200px;
+    animation-duration: 10s;
+	position:relative;
+	animation-name: text;
+    animation-iteration-count: infinite;
+	animation-direction:alternate-reverse;
+	color:black;
+}
+     
+#two {
+      animation-timing-function: linear;
+	  }
+     
+@keyframes text {
+  
+ 	from{
+		margin-left:100%;
+	}
+	to{
+		margin-left:0%
+	}
+    }

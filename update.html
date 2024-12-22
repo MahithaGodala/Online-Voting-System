@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Record</title>
+ <style>
+    body,html{
+	    margin:2%;
+		height:80%;
+        background-image: url('vote1.jpg');
+		background-position: center;
+	    background-repeat: no-repeat;
+		background-size: cover;
+	}
+	h3{
+	    color:black;
+		font-family: broadway;
+	}
+</style>
+
+</head>
+<body align="center">
+   <h2 class = "centered"style = "color : #FFE5B4;font-family: broadway;">UPDATE DETAILS<br><br>
+    <form action="/update" method="POST">
+<center>
+        <table>
+<tr>
+<th>Name</th>
+<td><input type="name" placeholder="enter your name" name="name"></td>
+</tr>
+<tr>
+<th>Password</th>
+<td><input type="password" placeholder="enter your password" name="password"></td>
+</tr>
+<tr>
+<tr>
+<th>Mobile number</th>
+<td><input type="tel" name="mobile"></td>
+</tr>
+<tr>
+<th>Voter_Id</th>
+<td><input type="text" placeholde="enter your voterid" name="voter_id"></td>
+</tr>
+<tr>
+<th>Address</th>
+<td><textarea name="addr" col="20" row="5" placeholder="enter your address" name="address"></textarea></td>
+</tr>
+</table>
+</center>
+    <br><button type="submit">Update Record</button>
+    </form>
+</body>
+</html>

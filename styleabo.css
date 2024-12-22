@@ -1,0 +1,49 @@
+.one
+{
+ background-color:pink;
+ height:100%;
+}
+.back
+{
+ 
+  width:100%;
+  background-position:center;
+   background-size:cover;
+   height:200px;
+}
+
+.main
+{
+  
+   color:#ff7200;
+  font-size:35px;
+  font-family:Arial;
+  padding-left:10px;
+  float:left;
+  padding-top:30px;
+  
+  color:#000;
+}
+.matter
+{
+   font-size:25px;
+   padding-left:25px;
+  
+
+}
+.home
+{
+  margin-left:62px;
+  margin-top:9px;
+  font-size:30px;
+  text-decoration:none;
+  color:black;
+  font-family:Arial;
+  font-weight:bold;
+  transition:0.4s ease-in-out;
+  text-decoration:none;
+}
+ li a:hover
+{
+  color:maroon;
+}
